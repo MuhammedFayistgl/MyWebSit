@@ -1,0 +1,23 @@
+@media(max-width:767px){
+    header .navmenu .navlist ul {
+        display: block;
+        position: relative;
+        right: 7px;
+        left: auto;
+        top: 48px;
+       
+        
+    }
+   
+    header .navmenu .navlist ul{
+        position: absolute;
+    }
+    header input{
+        display: block;
+    }
+   header .navmenu .mob-togle{
+    display: none;
+   }
+   
+  
+}

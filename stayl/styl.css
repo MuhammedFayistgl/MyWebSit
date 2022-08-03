@@ -12,15 +12,21 @@ a{
     text-decoration: none;
 }
 /* header */
+header .navcontainer{
+    width: 100%;
+    background-color: rgb(56, 134, 202);
+}
+
 header img{
     width: 45px;
     padding-left: 10px;
+   
 }
 header nav{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(56, 134, 202);
     align-items: center;
+    
 }
 header .navmenu .navlist ul{
     display: flex;
@@ -38,4 +44,11 @@ header .navmenu .navlist ul li:hover{
     color: rgb(0, 119, 255);
     background-color: rgb(200, 241, 252);
    
+}
+header input{
+    display: none;
+}
+header .container img{
+    width: 100%;
+    height: 100%;
 }
