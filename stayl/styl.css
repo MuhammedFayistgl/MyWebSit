@@ -1,0 +1,41 @@
+/* css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/* header */
+header img{
+    width: 45px;
+    padding-left: 10px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 134, 202);
+    align-items: center;
+}
+header .navmenu .navlist ul{
+    display: flex;
+    
+}
+header .navmenu .navlist ul li{
+    margin: 8px 5px;
+    padding: 3px 19px;
+    color: white;
+    background-color: rgb(25, 105, 175);
+    border-radius: 6px;
+    transition: all ease-in-out 1s;
+}
+header .navmenu .navlist ul li:hover{
+    color: rgb(0, 119, 255);
+    background-color: rgb(200, 241, 252);
+   
+}
