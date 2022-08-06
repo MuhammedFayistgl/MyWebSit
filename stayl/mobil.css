@@ -1,14 +1,20 @@
 @media(max-width:767px){
-    header input{
+    header #icon{
+        width: 30px;
         display: flex;
+        margin-right: 10px;
  
+    }
+    body{
+        max-width: 100%;
+        overflow: hidden;
     }
     header .navlist ul{
         display: block;
         flex-direction: column;
         position: absolute;
         top: 38px;
-        left: 12px;
+        left: 120px;
         transition: left ease 1s;
     }
     header .navlist{
@@ -18,7 +24,7 @@
     header .navlist.mob-togle ul{
         top: 38px;
        
-        left: -100px;
+        left: -80px;
 
     }
 }

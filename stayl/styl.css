@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+  --peragraph:800;
+  --textStyle:italic
+    
+    
+}
 ul{
     list-style: none;
 }
@@ -45,7 +51,7 @@ header .navmenu .navlist ul li:hover{
     background-color: rgb(200, 241, 252);
    
 }
-header input{
+header #icon{
     display: none;
 }
 header .container img{
@@ -60,4 +66,46 @@ header .container{
 header .hederinfo{
    position: absolute;
    top: 50%;
+   left: 50%;
+   right: 21%;
+}
+header .hederinfo p{
+   font-weight: var(--peragraph);
+   font-style: var(--textStyle);
+}
+/* About section */
+section .section-container{
+    display: flex;
+    position: relative;
+    
+}
+section .bg-img{
+    width: 100%;
+    height: 50vh;
+    padding-top: 25px;
+}
+section .heading{
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    right:auto;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    position:absolute;
+    text-align: center;
+}
+section .section-aboutcontainer{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+section .about-img img{
+    outline:solid #b5faf4 20px;
+    margin: 50px;
+    width:80%;
+    height: 100%;
+}
+.section-aboutcontainer{
+    display: flex;
+    align-items: center;
 }
