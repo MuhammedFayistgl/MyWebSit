@@ -3,17 +3,22 @@
         display: flex;
  
     }
-    header .navmenu .navlist{
-       position: relative;
-       top: 28px; 
-       transform: rotateX() ;
-       transition: transform ease-in-out 4s;
-    }
-    header .navmenu .navlist.mob-togle ul {
-       position: absolute;
-        display: flex;
+    header .navlist ul{
+        display: block;
         flex-direction: column;
-        transform: rotate(0deg);
-        transition: transform ease-in-out 4s;
+        position: absolute;
+        top: 38px;
+        left: 12px;
+        transition: left ease 1s;
+    }
+    header .navlist{
+        position: relative;
+        
+    }
+    header .navlist.mob-togle ul{
+        top: 38px;
+       
+        left: -100px;
+
     }
 }
