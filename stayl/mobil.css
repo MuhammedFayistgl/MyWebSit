@@ -1,23 +1,19 @@
 @media(max-width:767px){
-    header .navmenu .navlist ul {
-        display: block;
-        position: relative;
-        right: 7px;
-        left: auto;
-        top: 48px;
-       
-        
-    }
-   
-    header .navmenu .navlist ul{
-        position: absolute;
-    }
     header input{
-        display: block;
+        display: flex;
+ 
     }
-   header .navmenu .mob-togle{
-    display: none;
-   }
-   
-  
+    header .navmenu .navlist{
+       position: relative;
+       top: 28px; 
+       transform: rotateX() ;
+       transition: transform ease-in-out 4s;
+    }
+    header .navmenu .navlist.mob-togle ul {
+       position: absolute;
+        display: flex;
+        flex-direction: column;
+        transform: rotate(0deg);
+        transition: transform ease-in-out 4s;
+    }
 }
