@@ -6,8 +6,8 @@
  
     }
     body{
-        max-width: 100%;
-        overflow: hidden;
+        width: 100%;
+        overflow-x: hidden;
     }
     header .navlist ul{
         display: block;
@@ -26,5 +26,12 @@
        
         left: -80px;
 
+    }
+    section .section-aboutcontainer{
+        margin-left: 3px;
+        margin-right: 30px;
+    }
+    .aboutinfo p{
+        margin-left: 20px;
     }
 }
